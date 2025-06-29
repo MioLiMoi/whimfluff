@@ -1,0 +1,29 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Companions</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="dashboard">
+    <h1>Your Companions</h1>
+    <div id="character-list"></div>
+    <button id="add-character-btn">+ Create New Companion</button>
+  </div>  <!-- Modal for Creating/Editing Characters -->  <div id="character-editor" class="modal hidden">
+    <h2 id="editor-title">Create a Companion</h2>
+    <label>Name: <input type="text" id="char-name"></label>
+    <label>Mode:
+      <select id="char-mode">
+        <option value="pet">Pet Mode</option>
+        <option value="rp">Roleplay Mode</option>
+      </select>
+    </label>
+    <label>Description:
+      <textarea id="char-description" placeholder="Describe their personality..."></textarea>
+    </label>
+    <button id="save-character-btn">Save</button>
+    <button id="cancel-character-btn">Cancel</button>
+  </div>  <script type="module" src="js/main.js"></script></body>
+</html>
