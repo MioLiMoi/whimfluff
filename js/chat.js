@@ -1,4 +1,3 @@
-// js/chat.js
 import { getCharacterByName, updateCharacterState } from './storage.js';
 
 let companion = null; let chatLog = [];
