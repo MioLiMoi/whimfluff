@@ -1,4 +1,3 @@
-// js/characterManager.js
 import { getCharacters, setCharacters } from './storage.js';
 
 const MAX_CHARACTERS = 5;
