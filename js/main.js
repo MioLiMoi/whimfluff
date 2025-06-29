@@ -1,4 +1,3 @@
-// js/main.js
 import { loadCharacters, renderCharacterList, openEditor } from './ui.js'; import { saveCharacter, deleteCharacter } from './characterManager.js';
 
 window.addEventListener('DOMContentLoaded', () => { loadCharacters(); renderCharacterList();
