@@ -1,0 +1,86 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fef9f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#app {
+  width: 360px;
+  max-width: 100%;
+  background: #fff6ed;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+#pet-container {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#pet-image {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+
+#pet-status {
+  font-size: 1rem;
+  color: #5a4b43;
+}
+
+#controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #ffcf91;
+  color: #5a4b43;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #f9b75e;
+}
+
+#chat-panel {
+  background: #fffaf5;
+  padding: 0.5rem;
+  border-radius: 8px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+#chat-log {
+  margin-bottom: 0.5rem;
+}
+
+.chat-entry {
+  margin-bottom: 0.25rem;
+  font-size: 0.9rem;
+}
+
+#chat-input {
+  width: calc(100% - 60px);
+  padding: 0.4rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-right: 0.5rem;
+}
+
+#chat-send-btn {
+  padding: 0.4rem 0.8rem;
+}
