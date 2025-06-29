@@ -1,4 +1,3 @@
-// js/ui.js
 import { getCharacters } from './storage.js'; import { deleteCharacter } from './characterManager.js';
 
 export function loadCharacters() { // placeholder if extra setup needed in future }
