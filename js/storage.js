@@ -1,4 +1,3 @@
-// js/storage.js
 const STORAGE_KEY = 'virtualCompanions';
 
 export function getCharacters() { const data = localStorage.getItem(STORAGE_KEY); try { return data ? JSON.parse(data) : []; } catch (e) { console.error('Failed to parse character data:', e); return []; } }
