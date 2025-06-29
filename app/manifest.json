@@ -1,19 +1,22 @@
 {
   "name": "AI Companion",
   "short_name": "PetPal",
-  "start_url": ".",
+  "description": "A cozy AI-powered virtual pet/companion you can chat with and care for.",
+  "lang": "en",
+  "start_url": "/index.html",
+  "scope": "/",
   "display": "standalone",
-  "background_color": "#fef9f5",
+  "background_color": "#fdf6f0",
   "theme_color": "#ffcf91",
   "orientation": "portrait",
   "icons": [
     {
-      "src": "icon-192.png",
+      "src": "/icon-192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "icon-512.png",
+      "src": "/icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
